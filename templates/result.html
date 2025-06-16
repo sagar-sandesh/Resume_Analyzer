@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Resume Analysis Results</title>
+</head>
+<body>
+    <h2>Resume Analysis Results</h2>
+    <p><strong>Match Score:</strong> {{ results['score'] }}%</p>
+
+    <p><strong>Missing Skills:</strong> {{ results['missing_skills'] }}</p>
+
+    <h3>Suggestions:</h3>
+    <ul>
+    {% for suggestion in results['suggestions'] %}
+        <li>{{ suggestion }}</li>
+    {% endfor %}
+
+    </ul>
+
+    <a href="/">&#8592; Analyze Another</a>  <!-- Unicode left arrow -->
+</body>
+</html>
