@@ -5,12 +5,13 @@
     <title>Resume Analysis Results</title>
 </head>
 <body>
-    <h2>Resume Analysis Results</h2>
+    <h2>The result of the resume analysis is: </h2>
     <p><strong>Match Score:</strong> {{ results['score'] }}%</p>
 
-    <p><strong>Missing Skills:</strong> {{ results['missing_skills'] }}</p>
+    <p><strong>These Skills are missing:</strong> {{ results['missing_skills'] }}</p>
 
     <h3>Suggestions:</h3>
+
     <ul>
     {% for suggestion in results['suggestions'] %}
         <li>{{ suggestion }}</li>
