@@ -38,13 +38,12 @@ html
 
 ----
 
-## 🛠 Tech Stack
-- Component	                           - Technology 
-Backend	                                    Flask
-NLP Processing	                            spaCy (en_core_web_sm)
-PDF Handling	                            pdfminer.six
-Matching Engine	                            scikit-learn (Cosine Similarity)
-Frontend	                                HTML (with Jinja2 templating)
+## 🛠 Tech Stack 
+- Backend	   :                                 Flask
+- NLP Processing :	                            spaCy (en_core_web_sm)
+- PDF Handling :	                            pdfminer.six
+- Matching Engine :	                            scikit-learn (Cosine Similarity)
+- Frontend :	                                HTML (with Jinja2 templating)
 
 ----
 ## 📁 Project Structure
