@@ -39,11 +39,11 @@ html
 ----
 
 ## 🛠 Tech Stack 
-- Backend	   :                                 Flask
-- NLP Processing :	                            spaCy (en_core_web_sm)
-- PDF Handling :	                            pdfminer.six
-- Matching Engine :	                            scikit-learn (Cosine Similarity)
-- Frontend :	                                HTML (with Jinja2 templating)
+- **Backend**	   :                                 Flask
+- **NLP Processing** :	                            spaCy (en_core_web_sm)
+- **PDF Handling** :	                            pdfminer.six
+- **Matching Engine** :	                            scikit-learn (Cosine Similarity)
+- **Frontend** :	                                HTML (with Jinja2 templating)
 
 ----
 ## 📁 Project Structure
@@ -60,8 +60,9 @@ resume-analyzer/
 - │   ├── index.html            # Upload form
 - │   └── result.html           # Display results
 - │
-- ├── static/                   # Optional: styles/im
-
+- ├── static/                   
+     ├── style.css
+  
 ----
 ## ⚙️ Setup Instructions
 1. Clone the Repository
