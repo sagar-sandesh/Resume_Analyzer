@@ -61,7 +61,7 @@ resume-analyzer/
 - │   └── result.html           # Display results
 - │
 - ├── static/                   
-     ├── style.css
+  │     ├── style.css
   
 ----
 ## ⚙️ Setup Instructions
@@ -97,9 +97,9 @@ Visit http://127.0.0.1:5000 to use the app.
 ## ✅ How It Works
 User uploads a PDF resume and pastes a job description.
 
-resume_parser.py extracts text from PDF.
+**resume_parser.py** extracts text from PDF.
 
-analyzer.py:
+**analyzer.py:**
 
 Extracts and compares keywords.
 
@@ -121,6 +121,7 @@ Flask returns results on a new HTML page (result.html).
 
 ----
 ## 📄 License
-MIT License © 2025 [Your Name]
+MIT License © 2025 sagar sandesh oli
 
 ## 🙌 Author
+
