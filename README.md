@@ -92,6 +92,7 @@ Edit
 python app.py
 Visit http://127.0.0.1:5000 to use the app.
 
+----
 ## ✅ How It Works
 User uploads a PDF resume and pastes a job description.
 
