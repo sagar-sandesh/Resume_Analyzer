@@ -101,13 +101,13 @@ User uploads a PDF resume and pastes a job description.
 
 **analyzer.py:**
 
-Extracts and compares keywords.
+- Extracts and compares keywords.
 
-Computes cosine similarity.
+- Computes cosine similarity.
 
-Identifies missing keywords.
+- Identifies missing keywords.
 
-Flask returns results on a new HTML page (result.html).
+- Flask returns results on a new HTML page (result.html).
 
 ----
 ## 🧠 Future Improvements
