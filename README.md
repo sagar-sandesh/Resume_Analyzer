@@ -39,12 +39,12 @@ html
 ----
 
 ## 🛠 Tech Stack
-Component	Technology
-Backend	Flask
-NLP Processing	spaCy (en_core_web_sm)
-PDF Handling	pdfminer.six
-Matching Engine	scikit-learn (Cosine Similarity)
-Frontend	HTML (with Jinja2 templating)
+- Component	                           - Technology 
+Backend	                                    Flask
+NLP Processing	                            spaCy (en_core_web_sm)
+PDF Handling	                            pdfminer.six
+Matching Engine	                            scikit-learn (Cosine Similarity)
+Frontend	                                HTML (with Jinja2 templating)
 
 ----
 ## 📁 Project Structure
@@ -52,16 +52,16 @@ graphql
 Copy
 Edit
 resume-analyzer/
-├── app.py                    # Flask server with routes
-├── analyzer.py               # Core NLP and keyword analysis
-├── resume_parser.py          # Extracts text from PDFs
-├── requirements.txt          # Python dependencies
-│
-├── templates/
-│   ├── index.html            # Upload form
-│   └── result.html           # Display results
-│
-├── static/                   # Optional: styles/im
+- ├── app.py                    # Flask server with routes
+- ├── analyzer.py               # Core NLP and keyword analysis
+- ├── resume_parser.py          # Extracts text from PDFs
+- ├── requirements.txt          # Python dependencies
+- │
+- ├── templates/
+- │   ├── index.html            # Upload form
+- │   └── result.html           # Display results
+- │
+- ├── static/                   # Optional: styles/im
 
 ----
 ## ⚙️ Setup Instructions
