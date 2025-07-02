@@ -66,34 +66,34 @@ resume-analyzer/
 ----
 ## ⚙️ Setup Instructions
 1. Clone the Repository
-bash
-Copy
-Edit
+   
+```bash
+
 git clone https://github.com/yourusername/resume-analyzer.git
+
 cd resume-analyzer
+```
 
 2. Create Virtual Environment
-bash
-Copy
-Edit
+   
+```bash
 python -m venv venv
 source venv/bin/activate    # Windows: venv\Scripts\activate
+````
 
 3. Install Requirements
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+```
 
 4. Run the Flask App
-bash
-Copy
-Edit
+   
+```bash
 python app.py
 Visit http://127.0.0.1:5000 to use the app.
+```
 
-----
 ## ✅ How It Works
 User uploads a PDF resume and pastes a job description.
 
@@ -124,4 +124,5 @@ User uploads a PDF resume and pastes a job description.
 MIT License © 2025 sagar sandesh oli
 
 ## 🙌 Author
+Mr. SAGAR SANDESH OLI
 
