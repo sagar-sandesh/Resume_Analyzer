@@ -123,6 +123,10 @@ User uploads a PDF resume and pastes a job description.
 ## 📄 License
 MIT License © 2025 sagar sandesh oli
 
-## 🙌 Author
-Mr. SAGAR SANDESH OLI
+## 👤 Author
+Mr. Sagar Sandesh Oli
+
+📧 olisagarsandesh@gmail.com
+
+📍 Based in Finland 🇫🇮 | Originally from Nepal 🇳🇵
 
