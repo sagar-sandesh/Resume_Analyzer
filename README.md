@@ -65,7 +65,7 @@ resume-analyzer/
   
 ----
 ## ⚙️ Setup Instructions
-1. Clone the Repository
+**1. Clone the Repository**
    
 ```bash
 
@@ -74,20 +74,20 @@ git clone https://github.com/yourusername/resume-analyzer.git
 cd resume-analyzer
 ```
 
-2. Create Virtual Environment
+**2. Create Virtual Environment**
    
 ```bash
 python -m venv venv
 source venv/bin/activate    # Windows: venv\Scripts\activate
 ````
 
-3. Install Requirements
+**3. Install Requirements**
 ```bash
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-4. Run the Flask App
+**4. Run the Flask App**
    
 ```bash
 python app.py
