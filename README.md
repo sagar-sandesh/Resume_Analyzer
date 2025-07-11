@@ -20,7 +20,6 @@ A smart web-based tool that analyzes resumes against job descriptions using **Na
 ### 🔘 Upload Page
 
 ----
-html
 <form action="/analyze" method="post" enctype="multipart/form-data">
     <input type="file" name="resume">
     <input type="submit" value="Analyze">
