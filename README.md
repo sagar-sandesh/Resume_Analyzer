@@ -23,7 +23,6 @@ A smart web-based tool that analyzes resumes against job descriptions using **Na
 html
 <form action="/analyze" method="post" enctype="multipart/form-data">
     <input type="file" name="resume">
-    <textarea name="jobdesc"></textarea>
     <input type="submit" value="Analyze">
 </form>
 
