@@ -9,7 +9,7 @@ A smart web-based tool that analyzes resumes against job descriptions using **Na
 - 🗂 Upload PDF resumes via a clean web interface
 - 💬 Paste job descriptions into the form
 - 🧠 NLP-powered keyword analysis using spaCy
-- 📊 Match scoring using cosine similarity
+- 📊 Match scoring using cosine similarity.
 - 💡 Highlights missing keywords and gives smart suggestions
 - 🖥️ Shows results clearly on a separate result page
 
@@ -127,4 +127,5 @@ Mr. Sagar Sandesh Oli
 📧 olisagarsandesh@gmail.com
 
 📍 Based in Finland 🇫🇮 | Originally from Nepal 🇳🇵
+
 
